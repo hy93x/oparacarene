@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #eee6b9;
+    color: #3d405b;
+}
+
+
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0 0 20px #e07a5f;
+}
+
+.navlogo h1 {
+    padding: 10px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.right-bar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-bar ul li {
+    padding: 40px 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.nav-button button {
+    margin: 25px 0px;
+    width: 120px;
+    height: 6vh;
+    border: 0;
+    border-radius: 10px;
+    background-color: #e07a5f;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.midfield {
+
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+
+.mid-head {
+
+    display: flex;
+    justify-content: center;
+    /* color: rgb(21, 177, 21); */
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div-text {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.mid-left p {
+    line-height: 40px;
+    color: #e07a5f;
+    font-weight: bolder;
+}
+
+.input-mail {
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(232, 243, 243);
+    border-radius: 7px;
+
+}
+
+#mid-input {
+    width: 60%;
+    height: 6vh;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+    background-color: rgb(232, 243, 243);
+    padding-left: 30px;
+    cursor: pointer;
+
+}
+
+.mid-left button {
+    width: 100px;
+    margin: 3px;
+    height: 6vh;
+    border: none;
+    border-radius: 9px;
+    font-size: large;
+    background-color: #e07a5f;
+    cursor: pointer;
+}
+
+.mid-left h1 {
+    line-height: 43px;
+    margin: 15px 0px;
+}
+
+
+
+
+.mid-right {
+    font-size: large;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+
+.button-1 button {
+    height: 8vh;
+    width: 200px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e07a5f;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* admin pics */
+
+
+.big-pics {
+    margin: auto;
+     height:700px ;
+     width: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 450px;
+    align-items: center;
+    text-align: center;
+}
+
+.image{
+     margin: auto;
+     height: 600px;
+    width: 600px;
+}
+
+
+
+.image img {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 400px;
+
+}
+
+.img-text {
+      margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+}
+
+.chi{
+    font-weight: 400;
+    padding: 30px 0px;
+}
+
+/* footer 1st */
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+
+
+.card-box {
+    width: 250px;
+    height: 40vh;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 0 0 10px;
+    background-color: #3d405b;
+    color: #e07a5f;
+    padding: 20px;
+}
+
+.fa-brands {
+    font-size: 600%;
+    font-weight: bolder;
+    padding: 0px 70px;
+}
+
+.fa-solid {
+    font-size: 600%;
+    font-weight: bolder;
+    padding: 0px 70px;
+}
+
+.card-txt {
+    line-height: 40px;
+}
+
+.card-txt h1 {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.card-btn button {
+    cursor: pointer;
+    border-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 4vh;
+    background-color: transparent;
+    color: white;
+}
+
+/* main footer */
+
+.footer-bar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 300px;
+    background-color: transparent;
+    width: 100%;
+    box-shadow: 0 0 30px #e07a5f;
+    color: #3d405b;
+    font-weight: bolder;
+
+}
+
+.foot-list ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.foot-list ul li {
+    padding: 30px 30px;
+    cursor: pointer;
+    font-size: x-large;
+}
